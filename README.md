@@ -1,6 +1,8 @@
 # Easy QuerySet
 
-只是为了方便地使用 Django Models 来写脚本
+Django 的 ORM 是我用过最好用的，但无法快速地单独使用，按照官方指示，要写好几行代码。
+
+这个项目只是做了小小的封装，只是为了方便地使用 Django Models 来写脚本。
 
 ## 安装
 
