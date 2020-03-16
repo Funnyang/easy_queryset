@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="easy_queryset",
-    version="0.0.3",
+    version="0.0.4",
     author="funnyang",
     author_email="2funnyang@gmail.com",
     description="django queryset for script",
@@ -13,6 +13,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/funnyang/easy_queryset",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "django"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
